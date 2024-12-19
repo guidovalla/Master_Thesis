@@ -15,36 +15,7 @@ data_root_test = '../../DATA_ALL/_all_videos'
 ann_file_test = '../../DATA_ALL/test33_label.txt'
 
 file_client_args = dict(io_backend='disk')
-"""
-model = dict(  # Definizione del modello complessivo
-    backbone=dict(  # Configurazione del backbone (la parte del modello che estrae caratteristiche dalle immagini/video)
-        depth=50,  # Imposta la profondità della rete ResNet a 50 strati (ResNet-50)
-        norm_eval=False,  # Disabilita la normalizzazione in fase di valutazione (utile in alcuni casi di transfer learning)
-        pretrained='torchvision://resnet50',  # Usa i pesi pre-addestrati della ResNet-50 disponibili su TorchVision
-        shift_div=16,  # Specifica il divisore per il meccanismo di shift temporale nel TSM (modifica una frazione delle feature temporali)
-        type='ResNetTSM'  # Tipo di backbone: ResNet con il modulo TSM integrato per il riconoscimento di azioni nei video
-    ),
-    cls_head=dict(  # Configurazione della testa di classificazione (la parte che fa la predizione finale)
-        average_clips='prob',  # Media le probabilità delle clip per ottenere la predizione finale
-        consensus=dict(dim=1, type='AvgConsensus'),  # Usa una media ("AvgConsensus") sui risultati delle clip per prendere la decisione finale
-        dropout_ratio=0.5,  # Imposta il dropout (per prevenire overfitting) con una probabilità di 0.5
-        in_channels=2048,  # Numero di canali in ingresso (derivato da ResNet-50, che ha 2048 canali in uscita)
-        init_std=0.001,  # Inizializzazione standard dei pesi della testa di classificazione (0.001)
-        is_shift=True,  # Indica che la testa è configurata per usare lo shift temporale (parte del TSM)
-        num_classes=3,  # Numero di classi per la classificazione (in questo caso, 3 classi)
-        spatial_type='avg',  # Usa una media spaziale per aggregare le caratteristiche spaziali
-        type='TSMHead'  # Tipo di testa di classificazione specifica per il modello TSM
-    ),
-    data_preprocessor=dict(  # Configurazione per la normalizzazione dei dati in ingresso (video o immagini)
-        mean=[123.675, 116.28, 103.53],  # Media per la normalizzazione dei pixel (valori comuni per le immagini RGB)
-        std=[58.395, 57.12, 57.375],  # Deviazione standard per la normalizzazione dei pixel
-        type='ActionDataPreprocessor'  # Tipo di preprocessore per i dati di azioni (specializzato per input video)
-    ),
-    test_cfg=None,  # Configurazione per la fase di test (nessuna configurazione specifica qui)
-    train_cfg=None,  # Configurazione per la fase di addestramento (nessuna configurazione specifica qui)
-    type='Recognizer2D'  # Tipo di modello per il riconoscimento di azioni 2D (usa frame 2D per riconoscere le azioni nei video)
-)
-"""
+
 train_pipeline = [
     dict(type='DecordInit'),
     dict(type='SampleFrames', clip_len=1, frame_interval=1, num_clips=16),
