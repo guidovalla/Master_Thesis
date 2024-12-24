@@ -6,7 +6,7 @@ After having create a proper environment following the installation procedure (a
 ```console
 python tools/train.py ${CONFIG} > output_logs.txt
 ```
-where CONFIG is path to the MMAction config file (an example of which can be found in this repo).
+where CONFIG is the path to the MMAction config file (an example can be found in this repo).
 The best checkpoints resulting from the training and other useful data file are then saved on the work_dirs folder and after the training I save them on another folder in order to use them later.
 
 
