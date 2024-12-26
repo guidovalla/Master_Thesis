@@ -1,4 +1,4 @@
-# Master_Thesis
+# Master Thesis
 Hints about the code of my master thesis
 
 The fine-tuning was based on [MMAction2 ]([http://openmmlab.com/](https://github.com/open-mmlab/mmaction2)) repository. 
@@ -22,6 +22,13 @@ The standard procedure to visualize the Grad-CAM heatmap with MMAction:
 ```console
  python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --out-filename grad_cam_vis.mp4
 ```
+
+### Extraction heatmap values
+
+Using the customized version of the GradCAM class and the relative python script for the visualisation it is possible produce a file with all the values of the heatmap for a further analysis.
+
+mmaction2/mmaction/utils/gradcam_utils.py
+
 
 
 
