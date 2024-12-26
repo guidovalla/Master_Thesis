@@ -25,11 +25,11 @@ The standard procedure to visualize with MMAction the Grad-CAM heatmap of a vide
 
 ### Extraction heatmap values
 
-Using the customized version of the GradCAM class (`gradcam_utils.py`) and the relative python script for the visualisation (`vis_cam.py`),  it is possible produce a txt file with all the values of the heatmap for a further analysis. I suggest to replace the original GradCAM class in 'mmaction2/mmaction/utils/' and to run the new python script with:
+Using the customized version of the GradCAM class (`gradcam_utils.py`) and the relative python script for the visualisation (`vis_cam.py`),  it is possible produce a txt file with all the values of the heatmap for a further analysis. I suggest to replace the original GradCAM class in `mmaction2/mmaction/utils/` and to run the new python script with:
 ```console
 python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-url ${PATH}
 ```
-The file produced contains all the values dividing the different frame with "Frame N - Heatmap values:". I suggest to produce a .sh file to automatize the Grad-CAM collection.
+The file produced contains all the values dividing the different frame with the line "Frame N - Heatmap values:". I suggest to produce a .sh file to automatize the Grad-CAM collection.
 
 
 
