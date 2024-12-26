@@ -1,7 +1,7 @@
 # Master Thesis
 Hints about the code of my master thesis
 
-The fine-tuning was based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, so for an explanation of its installation and functioning please refer to [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
+The fine-tuning was based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, so for an explanation of its functioning please refer to [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
 After having create a proper environment following the installation procedure (and checking that everything was compatible with the CUDA version of the GPU in use), I launched the training with: 
 ```console
 python tools/train.py ${CONFIG} > output_logs.txt
