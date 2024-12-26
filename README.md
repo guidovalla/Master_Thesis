@@ -25,7 +25,7 @@ The standard procedure to visualize the Grad-CAM heatmap with MMAction:
 
 ### Extraction heatmap values
 
-Using the customized version of the GradCAM class and the relative python script for the visualisation it is possible produce a file with all the values of the heatmap for a further analysis.
+Using the customized version of the GradCAM class (`main`(previous `1.x`)) and the relative python script for the visualisation (`main`(previous `1.x`)),  it is possible produce a file with all the values of the heatmap for a further analysis
 
 mmaction2/mmaction/utils/gradcam_utils.py
 
