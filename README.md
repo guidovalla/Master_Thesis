@@ -32,6 +32,28 @@ python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-u
 The file produced contains all the values dividing the different frame with the line "Frame N - Heatmap values:". I suggest to produce a .sh file to automatize the video Grad-CAMs collection.
 
 
+## Further analyses
+
+For the comparison with human gaze data I converted the Grad-CAM heatmaps to saliency maps summing all the frame values for each video I normalized for the number of frames. Then I compared the result with human gaze data for the same video. The human fixation maps are obtained, as it is common practice, creating a discretized matrix with ones if the corresponding pixel have been fixated by at least one human experiment participant and zeros otherwise.
+
+#### Comparison with human data
+
+The definition of the metrics used (AUC, CC, SIM, KL Div) is in `saliency_metrics_def.py`. I started from the code in [this repository](https://github.com/tarunsharma1/saliency_metrics) (which is still in Python 2) and I adapted it to my scope.
+
+* The expected format of the two maps is the following:
+  + human fixation maps (ground truth) are map with values {0, 255}
+  + the saliency map are continous map in the set [0,255] (first they needed a normalization using the function `normalize_map`)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
