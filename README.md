@@ -29,7 +29,7 @@ Using the customized version of the GradCAM class (`gradcam_utils.py`) and the r
 ```console
 python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-url ${PATH}
 ```
-The file produced contains all the values dividing the different frame with the line "Frame N - Heatmap values:". I suggest to produce a .sh file to automatize the Grad-CAM collection.
+The file produced contains all the values dividing the different frame with the line "Frame N - Heatmap values:". I suggest to produce a .sh file to automatize the video Grad-CAMs collection.
 
 
 
