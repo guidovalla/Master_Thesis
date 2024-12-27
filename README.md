@@ -1,5 +1,4 @@
-# Master Thesis
-Hints about the code of my master thesis
+# Hints about the code of my thesis
 
 The fine-tuning was based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, using [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
 After having created a proper environment following the installation procedure (and checking that everything was compatible with the CUDA version of the GPU in use), I launched the training with: 
