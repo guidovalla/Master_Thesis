@@ -41,7 +41,7 @@ The definition of the metrics used (AUC, CC, SIM, KL Div) is in `saliency_metric
 
 The expected format of the two maps is the following:
   + human fixation maps (ground truth) are map with values {0, 255}
-  + the saliency map are continous map in the set [0,255] (first they needed a normalization using the function `normalize_map`)
+  + the saliency maps are continous maps in the set [0,255] (first they needed a normalization using the function `normalize_map`)
 
 
 
