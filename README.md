@@ -1,19 +1,19 @@
 # Master Thesis
 Hints about the code of my master thesis
 
-The fine-tuning was based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, so for an explanation of its functioning please refer to [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
-After having create a proper environment following the installation procedure (and checking that everything was compatible with the CUDA version of the GPU in use), I launched the training with: 
+The fine-tuning was based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, using [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
+After having created a proper environment following the installation procedure (and checking that everything was compatible with the CUDA version of the GPU in use), I launched the training with: 
 ```console
 python tools/train.py ${CONFIG} > output_logs.txt
 ```
-where CONFIG is the path to the MMAction config file (an example can be found in this repo).
-The best checkpoints resulting from the training and other useful data files (pth format) are then saved on the work_dirs folder and after the training I save them on another folder in order to use them later.
+where CONFIG is the path to the MMAction model configuration file (an example can be found in this repo).
+The best checkpoints resulting from the training and other useful data files (pth format) are then saved on the work_dirs folder and after the training I saved them on another folder in order to use them later.
 
-One example is for testing the model with:
+One example for testing the model is with:
 ```console
 python tools/test.py ${CONFIG} ${CHECKPOINT} --dump _outuput.pkl > output_test_logs.txt
 ```
-where CHECKPOINT is the path of the just moved pth file.
+where CHECKPOINT is the path of the moved pth format file.
 
 ## Grad-CAMs
 
