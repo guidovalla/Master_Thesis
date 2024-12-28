@@ -32,4 +32,3 @@
 3_bc_WS_Help__r6__33 0
 3_bc_SW_Help__r6__33 0
 1_ab_WS_Hinder__r3__33 1
-1_ab_SW_Hinder__r3__33 1
