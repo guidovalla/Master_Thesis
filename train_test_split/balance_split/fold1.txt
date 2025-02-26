@@ -16,7 +16,6 @@
 1_bc_WS_Physical__r1__100 7
 1_ca_SW_Physical__r3__100 8
 3_ca_SW_Physical__r4__100 8
-
 3_ab_SW_Help__r6__100 0
 1_ca_SW_Physical__r2__100 8
 3_bc_WS_Hinder__r4__100 4
