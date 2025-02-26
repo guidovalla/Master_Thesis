@@ -1,0 +1,272 @@
+1_ab_WS_Help__r2__100 0
+3_ab_WS_Help__r6__100 0
+1_bc_WS_Help__r1__100 1
+3_bc_SW_Help__r5__100 1
+3_ca_SW_Help__r6__100 2
+1_ca_SW_Help__r1__100 2
+3_ab_SW_Hinder__r6__100 3
+1_ab_SW_Hinder__r3__100 3
+1_bc_SW_Hinder__r3__100 4
+3_bc_SW_Hinder__r4__100 4
+3_ca_SW_Hinder__r5__100 5
+1_ca_WS_Hinder__r2__100 5
+3_ab_WS_Physical__r6__100 6
+1_ab_WS_Physical__r2__100 6
+1_bc_WS_Physical__r2__100 7
+1_bc_WS_Physical__r1__100 7
+1_ca_SW_Physical__r3__100 8
+3_ca_SW_Physical__r4__100 8
+
+3_ab_SW_Help__r6__100 0
+1_ca_SW_Physical__r2__100 8
+3_bc_WS_Hinder__r4__100 4
+3_ab_WS_Hinder__r6__100 3
+3_bc_WS_Physical__r6__100 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-90rot_1_ab_WS_Help__r2__100 0
+90rot_1_ab_WS_Help__r2__100 0
+180rot_1_ab_WS_Help__r2__100 0
+-90rot_3_ab_WS_Help__r6__100 0
+90rot_3_ab_WS_Help__r6__100 0
+180rot_3_ab_WS_Help__r6__100 0
+-90rot_1_bc_WS_Help__r1__100 1
+90rot_1_bc_WS_Help__r1__100 1
+180rot_1_bc_WS_Help__r1__100 1
+-90rot_3_bc_SW_Help__r5__100 1
+90rot_3_bc_SW_Help__r5__100 1
+180rot_3_bc_SW_Help__r5__100 1
+-90rot_3_ca_SW_Help__r6__100 2
+90rot_3_ca_SW_Help__r6__100 2
+180rot_3_ca_SW_Help__r6__100 2
+-90rot_1_ca_SW_Help__r1__100 2
+90rot_1_ca_SW_Help__r1__100 2
+180rot_1_ca_SW_Help__r1__100 2
+-90rot_3_ab_SW_Hinder__r6__100 3
+90rot_3_ab_SW_Hinder__r6__100 3
+180rot_3_ab_SW_Hinder__r6__100 3
+-90rot_1_ab_SW_Hinder__r3__100 3
+90rot_1_ab_SW_Hinder__r3__100 3
+180rot_1_ab_SW_Hinder__r3__100 3
+-90rot_1_bc_SW_Hinder__r3__100 4
+90rot_1_bc_SW_Hinder__r3__100 4
+180rot_1_bc_SW_Hinder__r3__100 4
+-90rot_3_bc_SW_Hinder__r4__100 4
+90rot_3_bc_SW_Hinder__r4__100 4
+180rot_3_bc_SW_Hinder__r4__100 4
+-90rot_3_ca_SW_Hinder__r5__100 5
+90rot_3_ca_SW_Hinder__r5__100 5
+180rot_3_ca_SW_Hinder__r5__100 5
+-90rot_1_ca_WS_Hinder__r2__100 5
+90rot_1_ca_WS_Hinder__r2__100 5
+180rot_1_ca_WS_Hinder__r2__100 5
+-90rot_3_ab_WS_Physical__r6__100 6
+90rot_3_ab_WS_Physical__r6__100 6
+180rot_3_ab_WS_Physical__r6__100 6
+-90rot_1_ab_WS_Physical__r2__100 6
+90rot_1_ab_WS_Physical__r2__100 6
+180rot_1_ab_WS_Physical__r2__100 6
+-90rot_1_bc_WS_Physical__r2__100 7
+90rot_1_bc_WS_Physical__r2__100 7
+180rot_1_bc_WS_Physical__r2__100 7
+-90rot_1_bc_WS_Physical__r1__100 7
+90rot_1_bc_WS_Physical__r1__100 7
+180rot_1_bc_WS_Physical__r1__100 7
+-90rot_1_ca_SW_Physical__r3__100 8
+90rot_1_ca_SW_Physical__r3__100 8
+180rot_1_ca_SW_Physical__r3__100 8
+-90rot_3_ca_SW_Physical__r4__100 8
+90rot_3_ca_SW_Physical__r4__100 8
+180rot_3_ca_SW_Physical__r4__100 8
+-90rot_
+90rot_
+180rot_
+-90rot_3_ab_SW_Help__r6__100 0
+90rot_3_ab_SW_Help__r6__100 0
+180rot_3_ab_SW_Help__r6__100 0
+-90rot_1_ca_SW_Physical__r2__100 8
+90rot_1_ca_SW_Physical__r2__100 8
+180rot_1_ca_SW_Physical__r2__100 8
+-90rot_3_bc_WS_Hinder__r4__100 4
+90rot_3_bc_WS_Hinder__r4__100 4
+180rot_3_bc_WS_Hinder__r4__100 4
+-90rot_3_ab_WS_Hinder__r6__100 3
+90rot_3_ab_WS_Hinder__r6__100 3
+180rot_3_ab_WS_Hinder__r6__100 3
+-90rot_3_bc_WS_Physical__r6__100 7
+90rot_3_bc_WS_Physical__r6__100 7
+180rot_3_bc_WS_Physical__r6__100 7
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
+-90rot_
+90rot_
+180rot_
